@@ -26,6 +26,121 @@ body {
   background-color: #dc861b; */
 }
 
+/* nav */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: sticky;
+  top: 0;
+  background-color: #11055f;
+  z-index: 1;
+}
+
+header nav {
+  display: flex;
+  /* margin-left: 60px; */
+  place-content: end end;
+  padding: 0px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  gap: 35px;
+  overflow-x: auto;
+}
+
+header li {
+  flex-shrink: 0;
+}
+
+a {
+  font-family: "poppins", sans-serif;
+  /* font-family: "bookman-jf-pro", serif; */
+  font-style: italic;
+
+  text-decoration: none;
+  color: #dc861b;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+header h1 {
+  font-family: "poppins", sans-serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #dc861b;
+  padding: 15px;
+}
+
+a:hover {
+  color: #e69c27;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: right;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: #dc861b;
+  text-align: center;
+  /* padding: 10; */
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  background-color: #b94400;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #11055f;
+  padding: 12px 16px;
+  font-size: 1rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #11055f;
+  background-color: #dc861b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* introbillede */
 
 #intro {
@@ -48,22 +163,23 @@ body {
   margin-right: auto;
 }
 
-#intro h1 {
-  font-family: "los-feliz", serif;
-  font-style: normal;
+#overskrift1 {
+  font-family: "ltc-globe-gothic", sans-serif;
+  font-style: italic;
   font-size: 3rem;
   color: #dc861b;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 85px;
+  margin-bottom: 15px;
 }
 
-#intro h2 {
-  font-family: "los-feliz", serif;
-  font-style: normal;
+#overskrift2 {
+  font-family: "ltc-globe-gothic", sans-serif;
+  font-style: italic;
   font-size: 2rem;
   color: #dc861b;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 /* anden section */
@@ -75,18 +191,94 @@ body {
   object-position: 50% 70%;
 }
 
+#om_mig2 img {
+  width: 650px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
 p {
   font-size: 1rem;
-  font-family: Helvetica, sans-serif;
-  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
   margin-bottom: 5px;
   line-height: 1.5rem;
 }
 
-h1 {
-  font-family: "bookman-jf-pro", serif;
+#om_mig h1 {
+  font-family: "ltc-globe-gothic", sans-serif;
   font-style: italic;
   margin-bottom: 15px;
   color: #11055f;
   font-size: 3rem;
+}
+
+@media (min-width: 1000px) {
+  #intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  #overskrifter {
+    margin: 50px;
+    margin-right: 60px;
+    margin-top: 170px;
+  }
+
+  #overskrift1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    font-size: 5rem;
+    color: #dc861b;
+    text-align: end;
+    margin-top: 85px;
+    margin-bottom: 15px;
+  }
+
+  #overskrift2 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    font-size: 3.5rem;
+    color: #dc861b;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #intro img {
+    clip-path: ellipse(44% 50% at 51% 50%);
+    height: 500px;
+    width: 420px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 90px;
+  }
+
+  #om_mig {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 100px;
+    gap: 20px;
+  }
+
+  #om_mig2 {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  #om_mig h1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    margin-bottom: 25px;
+    color: #11055f;
+    font-size: 3.2rem;
+  }
 }

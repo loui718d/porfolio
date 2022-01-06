@@ -53,9 +53,10 @@ header {
 
 #first_section h1 {
   /* font-family: "bookman-jf-pro", serif; */
-  font-family: "los-feliz", serif;
-  font-style: normal;
-  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 900;
   color: #092299;
 }
 
@@ -85,14 +86,14 @@ header li {
 }
 
 a {
-  /* font-family: "poppins", sans-serif; */
+  font-family: "poppins", sans-serif;
   /* font-family: "bookman-jf-pro", serif; */
-  font-family: "los-feliz", serif;
-  /* font-style: italic; */
-  font-weight: 900;
+  font-style: italic;
+
   text-decoration: none;
   color: #11055f;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 900;
   /* text-transform: uppercase; */
 }
 
@@ -104,13 +105,13 @@ a:hover {
 .dropbtn {
   background-color: transparent;
   color: #11055f;
-  font-size: 1.5rem;
+
   border: none;
-  /* font-family: "poppins", sans-serif; */
-  font-family: "los-feliz", serif;
+  font-family: "poppins", sans-serif;
   /* font-family: "bookman-jf-pro", serif; */
+  font-size: 1.3rem;
   font-weight: 900;
-  font-style: normal;
+  font-style: italic;
 }
 
 .dropdown {
@@ -122,9 +123,8 @@ a:hover {
   display: none;
   position: fixed;
   top: 75px;
-  right: 50px;
+  right: 20px;
   background-color: #b94400;
-
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -135,8 +135,7 @@ a:hover {
   text-decoration: none;
   display: block;
   font-size: 1rem;
-  /* font-family: "poppins", sans-serif; */
-  font-family: "los-feliz", serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
 }
 
@@ -207,38 +206,42 @@ a:hover {
 /* fonts, størrelse og margin */
 
 h1 {
-  font-family: "bookman-jf-pro", serif;
+  font-family: "ltc-globe-gothic", sans-serif;
   font-style: italic;
   margin-bottom: 15px;
   color: #11055f;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 p {
   font-size: 1rem;
-  font-family: Helvetica, sans-serif;
+  /* font-family: Helvetica, sans-serif; */
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   margin-bottom: 5px;
   line-height: 1.5rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-family: "los-feliz", serif;
+  font-size: 1.3rem;
+  font-family: "poppins", sans-serif;
+  /* font-style: italic; */
   font-weight: 900;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #11055f;
+  margin-top: 20px;
 }
 
 button {
-  font-family: "bookman-jf-pro", serif;
+  font-family: "poppins", sans-serif;
   font-style: italic;
+  font-weight: 600;
   margin-bottom: 15px;
   color: #11055f;
   font-size: 1rem;
 }
 
-/* grid */
+/* grid responsivt */
 
 @media (min-width: 600px) {
   #second_section {
@@ -263,12 +266,121 @@ button {
     object-fit: cover;
     margin-bottom: 10px;
   }
+
+  /* størrelser */
+
+  #first_section h1 {
+    /* font-family: "bookman-jf-pro", serif; */
+    font-family: "poppins", sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #092299;
+  }
+
+  a {
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-style: italic;
+    text-decoration: none;
+    color: #11055f;
+    font-size: 1.5rem;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+  }
+
+  /* nav knap */
+  .dropbtn {
+    background-color: transparent;
+    color: #11055f;
+
+    border: none;
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    top: 75px;
+    right: 45px;
+    background-color: #b94400;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #11055f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+  }
+
+  /* læse mere knap */
+  .read_more {
+    /* border-radius: 4px; */
+    background-color: transparent;
+    border: none;
+    color: #11055f;
+    /* text-align: center; */
+    font-size: 1rem;
+    transition: 0.5s;
+    /* transition: all 0.5s; */
+  }
+
+  /* fonts, størrelse og margin */
+
+  h1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #11055f;
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: "poppins", sans-serif;
+
+    text-justify: inter-word;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    margin-right: 10px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-family: "poppins", sans-serif;
+    /* font-style: italic; */
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: #11055f;
+  }
+
+  button {
+    font-family: "poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #11055f;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 800px) {
   #second_section {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    margin-bottom: 50px;
   }
 
   #second_section img {
@@ -280,7 +392,7 @@ button {
   #projekter {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 25px;
   }
   #third_section img {
     width: 386px;
@@ -288,12 +400,110 @@ button {
     object-fit: cover;
     margin-bottom: 10px;
   }
+
+  /* størrelser */
+
+  a {
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-style: italic;
+
+    text-decoration: none;
+    color: #11055f;
+    font-size: 1.6rem;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+  }
+
+  /* nav knap */
+  .dropbtn {
+    background-color: transparent;
+    color: #11055f;
+
+    border: none;
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    top: 75px;
+    right: 55px;
+    background-color: #b94400;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #11055f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+  }
+
+  /* læse mere knap */
+  .read_more {
+    /* border-radius: 4px; */
+    background-color: transparent;
+    border: none;
+    color: #11055f;
+    /* text-align: center; */
+    font-size: 1rem;
+    transition: 0.5s;
+    /* transition: all 0.5s; */
+  }
+
+  /* fonts, størrelse og margin */
+
+  h1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    margin-bottom: 25px;
+    color: #11055f;
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-family: "poppins", sans-serif;
+    /* font-style: italic; */
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: #11055f;
+  }
+
+  button {
+    font-family: "poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #11055f;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1000px) {
   #second_section {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    margin-bottom: 60px;
   }
 
   #second_section img {
@@ -313,18 +523,119 @@ button {
     object-fit: cover;
     margin-bottom: 10px;
   }
+
+  /* størrelser */
+
+  a {
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-style: italic;
+
+    text-decoration: none;
+    color: #11055f;
+    font-size: 1.7rem;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+  }
+
+  /* nav knap */
+  .dropbtn {
+    background-color: transparent;
+    color: #11055f;
+
+    border: none;
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    top: 75px;
+    right: 55px;
+    background-color: #b94400;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #11055f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1rem;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+  }
+
+  /* læse mere knap */
+  .read_more {
+    /* border-radius: 4px; */
+    background-color: transparent;
+    border: none;
+    color: #11055f;
+    /* text-align: center; */
+    font-size: 1rem;
+    transition: 0.5s;
+    /* transition: all 0.5s; */
+    margin-top: 15px;
+  }
+
+  /* fonts, størrelse og margin */
+
+  h1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #11055f;
+    font-size: 3.1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    margin-right: 60px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-family: "poppins", sans-serif;
+    /* font-style: italic; */
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: #11055f;
+  }
+
+  button {
+    font-family: "poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #11055f;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1200px) {
   #second_section {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    margin-bottom: 70px;
   }
 
   #second_section img {
     width: 500px;
     height: 500px;
     object-fit: cover;
+    margin-left: 20px;
   }
 
   #projekter {
@@ -338,5 +649,103 @@ button {
     height: 300px;
     object-fit: cover;
     margin-bottom: 10px;
+  }
+
+  /* størrelser */
+
+  a {
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-style: italic;
+
+    text-decoration: none;
+    color: #11055f;
+    font-size: 1.7rem;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+  }
+
+  /* nav knap */
+  .dropbtn {
+    background-color: transparent;
+    color: #11055f;
+    border: none;
+    font-family: "poppins", sans-serif;
+    /* font-family: "bookman-jf-pro", serif; */
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    top: 75px;
+    right: 50px;
+    background-color: #b94400;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #11055f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1rem;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+  }
+
+  /* læse mere knap */
+  .read_more {
+    /* border-radius: 4px; */
+    background-color: transparent;
+    border: none;
+    color: #11055f;
+    /* text-align: center; */
+    font-size: 1rem;
+    transition: 0.5s;
+    /* transition: all 0.5s; */
+    margin-top: 20px;
+  }
+
+  /* fonts, størrelse og margin */
+
+  h1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    margin-bottom: 25px;
+    color: #11055f;
+    font-size: 3.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    margin-right: 5px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-family: "poppins", sans-serif;
+    /* font-style: italic; */
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: #11055f;
+  }
+
+  button {
+    font-family: "poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #11055f;
+    font-size: 1rem;
   }
 }

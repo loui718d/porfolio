@@ -147,14 +147,14 @@ li.dropdown {
 #overskrift {
   font-family: "ltc-globe-gothic", sans-serif;
   font-style: italic;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top: 70px;
+  margin-left: 45px;
+  margin-bottom: 20px;
   color: #11055f;
   font-size: 2rem;
 }
 
 #second_section {
-  margin-top: 50px;
   margin-left: 50px;
   margin-right: 20px;
 }
@@ -166,7 +166,6 @@ h2 {
   font-weight: 900;
   margin-bottom: 10px;
   color: #11055f;
-  margin-top: 20px;
 }
 
 p {
@@ -174,7 +173,7 @@ p {
   /* font-family: Helvetica, sans-serif; */
   font-family: "poppins", sans-serif;
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   line-height: 1.5rem;
 }
 

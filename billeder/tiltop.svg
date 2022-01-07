@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="61" viewBox="0 0 61 61">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="70" y="2" width="40" height="29" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect x="49" y="1" width="40" height="23" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1794.42 -964.42)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="30.5" cy="30.5" r="30.5" transform="translate(1794.42 964.42)" fill="#11055f"/>
+    <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(1734.92 970.779)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Scroll_Group_2" data-name="Scroll Group 2" transform="translate(21 7)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+        <text id="_" data-name="&lt;" transform="translate(58) rotate(90)" fill="#dc861b" font-size="82" font-family="DiwanThuluth, Diwan Thuluth"><tspan x="0" y="0">&lt;</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

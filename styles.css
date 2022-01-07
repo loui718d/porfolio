@@ -197,7 +197,7 @@ a:hover {
 /* beskæring af billeder */
 
 #third_section img {
-  width: 460px;
+  width: 420px;
   height: 400px;
   object-fit: cover;
   margin-bottom: 10px;
@@ -239,6 +239,20 @@ button {
   margin-bottom: 15px;
   color: #11055f;
   font-size: 1rem;
+}
+
+/* knap til top */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 /* grid responsivt */

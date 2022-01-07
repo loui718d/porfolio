@@ -159,7 +159,7 @@ a:hover {
 }
 
 /* læse mere knap */
-.read_more {
+.read_more a {
   /* border-radius: 4px; */
   background-color: transparent;
   border: none;

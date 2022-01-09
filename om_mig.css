@@ -192,7 +192,7 @@ li.dropdown {
 }
 
 #om_mig2 img {
-  inline-size: clamp(410px, 50vw, 600px);
+  inline-size: clamp(410px, 50vw, 650px);
   /* width: 420px; */
   height: 450px;
   object-fit: cover;

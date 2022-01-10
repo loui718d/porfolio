@@ -353,7 +353,7 @@ p {
   #overskrift1 {
     font-family: "ltc-globe-gothic", sans-serif;
     font-style: italic;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #dc861b;
     text-align: end;
     margin-top: 85px;
@@ -363,7 +363,7 @@ p {
   #overskrift2 {
     font-family: "ltc-globe-gothic", sans-serif;
     font-style: italic;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #dc861b;
     text-align: end;
     margin-top: 20px;
@@ -390,7 +390,7 @@ p {
 
   #om_mig2 {
     display: grid;
-    grid-template-columns: 2fr 1.3fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 50px;
   }
 
@@ -470,5 +470,33 @@ p {
     text-decoration: none;
     display: block;
     text-align: left;
+  }
+}
+
+@media (min-width: 1100px) {
+  #overskrift1 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    font-size: 5rem;
+    color: #dc861b;
+    text-align: end;
+    margin-top: 85px;
+    margin-bottom: 15px;
+  }
+
+  #overskrift2 {
+    font-family: "ltc-globe-gothic", sans-serif;
+    font-style: italic;
+    font-size: 3.5rem;
+    color: #dc861b;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #om_mig2 {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    margin-top: 50px;
   }
 }

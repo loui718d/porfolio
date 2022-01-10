@@ -234,6 +234,8 @@ h2 {
 
 button {
   font-family: "poppins", sans-serif;
+  background-color: transparent;
+  border-style: none;
   font-style: italic;
   font-weight: 600;
   margin-bottom: 15px;

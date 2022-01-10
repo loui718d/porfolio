@@ -69,6 +69,7 @@ a {
   color: #dc861b;
   font-size: 1.1rem;
   font-weight: 900;
+  cursor: default;
 }
 
 header h1 {

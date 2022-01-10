@@ -57,11 +57,15 @@ header {
   font-style: italic;
   font-size: 1.3rem;
   font-weight: 900;
-  color: #092299;
+  color: #9b3900;
 }
 
 #titel {
   padding: 30px;
+}
+
+#titel a {
+  color: #092299;
 }
 
 header nav {

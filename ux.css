@@ -183,6 +183,7 @@ p {
   font-weight: 500;
   margin-bottom: 15px;
   line-height: 1.5rem;
+  max-width: 60ch;
 }
 
 #third_section {

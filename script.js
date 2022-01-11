@@ -1,8 +1,8 @@
 // knap til top
-//Get the button
+
 var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// når man går 20px ned fra toppen bliver knap vist
 window.onscroll = function () {
   scrollFunction();
 };
@@ -15,7 +15,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Når man klikker når knappen , kommer den op til toppen igen
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;

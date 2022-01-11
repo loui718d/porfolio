@@ -51,10 +51,6 @@ header nav {
   margin-inline-end: auto;
 }
 
-header li {
-  flex-shrink: 0;
-}
-
 a {
   font-family: "poppins", sans-serif;
   /* font-family: "bookman-jf-pro", serif; */
@@ -65,15 +61,6 @@ a {
   font-size: 1.1rem;
   font-weight: 900;
   cursor: default;
-}
-
-header h1 {
-  font-family: "poppins", sans-serif;
-  font-style: italic;
-  font-size: 1.1rem;
-  font-weight: 900;
-  color: #dc861b;
-  padding: 15px;
 }
 
 a:hover {

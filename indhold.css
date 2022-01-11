@@ -159,7 +159,7 @@ li.dropdown {
   margin-right: 20px;
 }
 
-#tema5 {
+.tema5 {
   background-color: transparent;
   color: #11055f;
   font-size: 0.8rem;
@@ -168,7 +168,7 @@ li.dropdown {
   font-weight: 600;
 }
 
-#tema5:hover {
+.tema5:hover {
   color: #092299;
 }
 
@@ -217,7 +217,7 @@ p {
     gap: 25px;
   }
 
-  #tema5 {
+  .tema5 {
     background-color: transparent;
     color: #11055f;
     font-size: 1rem;
@@ -331,7 +331,7 @@ p {
     gap: 25px;
   }
 
-  #tema5 {
+  .tema5 {
     background-color: transparent;
     color: #11055f;
     font-size: 1rem;
@@ -448,7 +448,7 @@ p {
     gap: 25px;
   }
 
-  #tema5 {
+  .tema5 {
     background-color: transparent;
     color: #11055f;
     font-size: 1.1rem;

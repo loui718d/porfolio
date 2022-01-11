@@ -85,11 +85,11 @@ ul {
   background-color: transparent;
 }
 
-li {
+.dropdown {
   float: right;
 }
 
-li a,
+.dropdown a,
 .dropbtn {
   display: inline-block;
   color: #dc861b;
@@ -98,12 +98,12 @@ li a,
   text-decoration: none;
 }
 
-li a:hover,
+.dropdown a:hover,
 .dropdown:hover .dropbtn {
   background-color: transparent;
 }
 
-li.dropdown {
+.dropdown {
   display: inline-block;
 }
 

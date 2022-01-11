@@ -69,7 +69,7 @@ header {
   padding: 5px;
 }
 
-header nav ul {
+header nav {
   display: flex;
   list-style: none;
   margin: 0;
